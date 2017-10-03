@@ -1,0 +1,60 @@
+javascript
+	1.ECMAScript
+	2.BOM
+	3.DOM
+ 
+ 特点：1.跨平台 	2.安全	
+
+
+如何编写：
+	方式一：可以使用<script>标签
+		格式：
+			<script type="text/javascript">
+				js代码；
+			</script>
+	
+	方式二：引用外部的javascript文件
+		格式：
+			<script src="js文件的路径" type="text/javascript">
+			</script>
+		
+常用的函数：
+	alert("显示的内容");  弹出框
+	document.write("数据");  向页面输出数据
+
+
+变量声明：
+	格式：
+		var 变量名 = 数据
+	
+	
+
+BOM： 浏览器对象模型	
+	浏览器对象模型中把浏览器的各部分都用了一个对象进行描述。
+	
+	Windows 对象 代表了一个新开的窗口
+		常用的方法：
+			open() 打开一个新的窗口
+			resizeBy() 更改窗口的当前位置缩放指定 的x 和y偏移量
+			resizeTo() 将窗口的大小更改为指定的宽度和高度值
+			moveBy()   相对于原来的窗口移动指定的x，y值
+			moveTo()   将窗口左上角的屏幕位置移动到指定的x和y位置。
+		事件：
+			注册事件的方式：
+				方式一：直接在html元素上注册
+				方式二：可以使用js代码先找到对应的对象再注册
+			
+	
+	
+	location 对象 代表了地址栏对象
+	
+	screen 对象 代表了整个屏幕的对象
+	
+	
+DOM：文档对象模型
+	
+	
+	
+	
+	
+	
